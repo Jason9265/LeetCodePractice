@@ -3,7 +3,7 @@ import java.util.*;
 public class Test {
     public static void main(String[] args) {
         Print p = new Print();
-        LeetCodeContest lcd = new LeetCodeContest();
+        LeetCodeContest con = new LeetCodeContest();
 
         // TreeNode
         TreeBuilder tb = new TreeBuilder();
@@ -11,12 +11,12 @@ public class Test {
         TreeNode root = tb.iniTree(treeA);
 
         // array
-        int[] arr1 = new int[]{1, 1, 1, 1, 1};
+        int[] arr1 = new int[]{31, 25, 72, 79, 74, 65, 84, 91, 18, 59, 27, 9, 81, 33, 17, 58};
         int[][] arra1 = new int[][]{{1, 2, 2, 3, 5}, {3, 2, 3, 4, 4}, {2, 4, 5, 3, 1}, {6, 7, 1, 4, 5}, {5, 1, 1, 2, 4}};
-        int[][] arra2 = new int[][]{{1,1,1,1,1,1}, {-1,-1,-1,-1,-1,-1}, {1,1,1,1,1,1}, {-1,-1,-1,-1,-1,-1}};
-        String[] stringArray1 = new String[]{"10:00", "11:00"};
-        String[] stringArray2 = new String[]{"01:20", "03:00"};
+        int[][] arra2 = new int[][]{{0, 0}, {1, 0}, {2, 0}, {0, 1}, {0, 2}};
+        String[] stringArray = new String[]{"a"};
 
         // solution
+
     }
 }
