@@ -1,4 +1,3 @@
-import com.sun.org.apache.bcel.internal.generic.CHECKCAST;
 
 public class LeetCode1704 {
     public boolean halvesAreAlike(String s) {
