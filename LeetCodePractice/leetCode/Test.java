@@ -17,8 +17,6 @@ public class Test {
         String[] stringArray = new String[]{"a", "b"};
 
         // solution
-        LeetCode205 so = new LeetCode205();
-        System.out.println(so.isIsomorphic("egg", "app"));
 
     }
 }
