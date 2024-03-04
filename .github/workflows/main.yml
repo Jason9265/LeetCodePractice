@@ -1,0 +1,17 @@
+name: "Test Deployment"
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  setup-vars:
+    runs-on: ubuntu-latest
+    name: Run 30s
+    steps:
+      - name: Wait for 30 seconds
+        run: |
+          sleep 30
+          echo "done"
